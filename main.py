@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 # coding=utf-8
 import sys
@@ -57,7 +58,8 @@ for song in songs:
 
     try:
         ur.urlretrieve(songs[song], filename=file_name)  # Downloading music
-    except Exception:
+    except Exception as e:
+        raise e
         print('%s not downloaded!' % song)
         log['error'] += 1
         continue
