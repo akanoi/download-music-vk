@@ -1,1 +1,1 @@
-__all__ = ["main", "authorization", "supportFunc"]
+__all__ = ["downloadMusic", "authorization", "supportFunc"]
