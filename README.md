@@ -1,4 +1,13 @@
 # Download Music VK
-The program will download all of your music on your computer.
-To authorize used is library VK. Enter your username and password when you run the script, or program.
+The script will download all your music from playlist VK on your computer.
 
+To call a script, enter:
+```
+python main.py [flags]
+```
+To view the available flags, call help:
+```
+python main.py -h
+```
+
+To authorize used is [library VK] (https://github.com/dimka665/vk).
