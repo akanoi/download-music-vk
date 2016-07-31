@@ -3,7 +3,7 @@ The script will download all your music from playlist VK on your computer.
 
 To call a script, enter:
 ```
-python main.py [flags]
+python main.py [-flags]
 ```
 To view the available flags, call help:
 ```
