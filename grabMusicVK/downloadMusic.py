@@ -4,13 +4,12 @@
 Copyright (C) 2016
 """
 #!/usr/bin/env python
-# coding=utf-8
+#coding=utf-8
 import sys
 import os
 import urllib.request as ur
-import authorization
-import supportFunc as sf
-
+import downloadMusicVK.authorization
+import downloadMusicVK.supportFunc as sf
 
 def main():
     flags = sf.getFlags(sys.argv)

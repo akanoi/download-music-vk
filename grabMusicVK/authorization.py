@@ -31,5 +31,6 @@ def getMusicList(name, password, inv):
     musics = api.audio.get() or {}
     try:
         return {'%s - %s' % (s['artist'], s['title']): s['url'] for s in musics}
-    except Exception:
+    except Exception as e:
+        raise e
         return {}
